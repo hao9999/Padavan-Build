@@ -24,7 +24,7 @@ jobs:
     if: github.event.repository.owner.id == github.event.sender.id  # 自己点的 Star
     env:
       build_variant: "mt7621"
-      targets: "K2P DIR-878 RM2100 R2100"
+      targets: "K2P"
     strategy:
       matrix:
         include:
